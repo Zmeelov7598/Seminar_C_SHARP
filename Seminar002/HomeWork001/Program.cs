@@ -2,14 +2,16 @@
 // 456 -> 5
 // 782 -> 8
 // 918 -> 1
-Console.Write("Введите трехзначное число: ");
-int ThreeDigitNumber = int.Parse(Console.ReadLine() ?? "0");
-int[] arrayTDN = new int[3];
-
-for (int i = 2; i >= 0; i--)
+void FindSecondDigit(int number)
 {
-    arrayTDN[i] = ThreeDigitNumber % 10;
-    ThreeDigitNumber /= 10;
+    int[] arrayTDN = new int[3];
+    for (int i = 2; i >= 0; i--)
+    {
+        arrayTDN[i] = number % 10;
+        number /= 10;
+    }
+    Console.WriteLine("Второе число: " + arrayTDN[1]);
 }
 
-Console.WriteLine(arrayTDN[1]);
+Console.Write("Введите трехзначное число: ");
+FindSecondDigit(int.Parse(Console.ReadLine() ?? "0"));
