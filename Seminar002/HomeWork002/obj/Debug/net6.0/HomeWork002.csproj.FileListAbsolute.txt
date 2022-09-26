@@ -1,0 +1,15 @@
+C:\Users\admin\Desktop\GB\Seminar_C_SHARP\Seminar002\HomeWork002\bin\Debug\net6.0\HomeWork002.exe
+C:\Users\admin\Desktop\GB\Seminar_C_SHARP\Seminar002\HomeWork002\bin\Debug\net6.0\HomeWork002.deps.json
+C:\Users\admin\Desktop\GB\Seminar_C_SHARP\Seminar002\HomeWork002\bin\Debug\net6.0\HomeWork002.runtimeconfig.json
+C:\Users\admin\Desktop\GB\Seminar_C_SHARP\Seminar002\HomeWork002\bin\Debug\net6.0\HomeWork002.dll
+C:\Users\admin\Desktop\GB\Seminar_C_SHARP\Seminar002\HomeWork002\bin\Debug\net6.0\HomeWork002.pdb
+C:\Users\admin\Desktop\GB\Seminar_C_SHARP\Seminar002\HomeWork002\obj\Debug\net6.0\HomeWork002.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\GB\Seminar_C_SHARP\Seminar002\HomeWork002\obj\Debug\net6.0\HomeWork002.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\GB\Seminar_C_SHARP\Seminar002\HomeWork002\obj\Debug\net6.0\HomeWork002.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\GB\Seminar_C_SHARP\Seminar002\HomeWork002\obj\Debug\net6.0\HomeWork002.AssemblyInfo.cs
+C:\Users\admin\Desktop\GB\Seminar_C_SHARP\Seminar002\HomeWork002\obj\Debug\net6.0\HomeWork002.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\GB\Seminar_C_SHARP\Seminar002\HomeWork002\obj\Debug\net6.0\HomeWork002.dll
+C:\Users\admin\Desktop\GB\Seminar_C_SHARP\Seminar002\HomeWork002\obj\Debug\net6.0\refint\HomeWork002.dll
+C:\Users\admin\Desktop\GB\Seminar_C_SHARP\Seminar002\HomeWork002\obj\Debug\net6.0\HomeWork002.pdb
+C:\Users\admin\Desktop\GB\Seminar_C_SHARP\Seminar002\HomeWork002\obj\Debug\net6.0\HomeWork002.genruntimeconfig.cache
+C:\Users\admin\Desktop\GB\Seminar_C_SHARP\Seminar002\HomeWork002\obj\Debug\net6.0\ref\HomeWork002.dll

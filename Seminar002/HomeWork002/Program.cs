@@ -5,7 +5,7 @@
 
 void FindTD (int n1)
 {
-   while (n1 >= 999)
+   while (n1 >= 1000)
    {
     n1/=10;
    }
