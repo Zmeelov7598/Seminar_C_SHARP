@@ -17,13 +17,23 @@ void CheckPalindrom(int i, int j)
     {
         Console.WriteLine("Да это число палиндром!");
     }
-    else 
+    else
     {
         Console.WriteLine("НЕТ это число не палиндром!");
     }
 }
 
-Console.Write("Введите пятизначное число : ");
-int number = int.Parse(Console.ReadLine() ?? "0");
+int GetNUmber()
+{
+    int number = 0;
+    while (number < 9999 || number > 99999)
+    {
+        Console.WriteLine("Введите пятизначное число: ");
+        number = int.Parse(Console.ReadLine() ?? "0");
+    }
+    return number;
+}
+
+int number = GetNUmber();
 int revers = Palindrom(number);
 CheckPalindrom(number, revers);
