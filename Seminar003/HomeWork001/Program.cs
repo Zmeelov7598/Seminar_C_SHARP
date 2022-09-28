@@ -1,4 +1,6 @@
-﻿int Palindrom(int number)
+﻿//Напишите программу, которая принемает на вход пятизначное число и проверяет, 
+//является ли оно палиндромом.
+int Palindrom(int number)
 {
     int n = number;
     int rev = 0;
