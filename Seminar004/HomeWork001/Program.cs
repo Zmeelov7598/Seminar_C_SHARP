@@ -1,4 +1,5 @@
-﻿int GetNumberA()
+﻿//Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B
+int GetNumberA()
 {
     Console.WriteLine("Введите число А!");
     return Convert.ToInt32(Console.ReadLine());
