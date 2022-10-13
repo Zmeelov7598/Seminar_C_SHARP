@@ -15,11 +15,11 @@ int[,,] GetDemension()
 
 void PrintArray(int[,,] arr)
 {
-    for (int i = 0; i < arr.GetLength(0); i++)
+    for (int k = 0; k < arr.GetLength(2); k++)
     {
-        for (int j = 0; j < arr.GetLength(1); j++)
+        for (int i = 0; i < arr.GetLength(0); i++)
         {
-            for (int k = 0; k < arr.GetLength(2); k++)
+            for (int j = 0; j < arr.GetLength(1); j++)
             {
                 Console.Write($"{arr[i, j, k]}({i},{j},{k})");
             }
@@ -31,44 +31,28 @@ void PrintArray(int[,,] arr)
 
 void FillArray(int[,,] arr)
 {
+    int count = 10;
     for (int i = 0; i < arr.GetLength(0); i++)
     {
         for (int j = 0; j < arr.GetLength(1); j++)
         {
             for (int k = 0; k < arr.GetLength(2); k++)
             {
-                arr[i, j, k] = new Random().Next(1, 10);
+                arr[i, j, k] = count;
+                count += 1;
+                if (count >= 100) break;
             }
+            if (count >= 100) break;
         }
+        if (count >= 100) break;
     }
-}
+    if (count >= 100) 
+        {
+            Console.WriteLine("Слишком БОЛЬШОЙ задан массив");
+        }
 
-void CheckDoubleArray(int[,,] arr)
-{
-    int count = 0;
-    int temp = arr[count,count,count];
-    for (int i = 0; i < arr.GetLength(0); i++)
-    {
-        for (int j = 0; j < arr.GetLength(1); j++)
-        {
-            for (int k = 0; k < arr.GetLength(2); k++)
-            {
-                if (arr[i, j, k] == temp)
-                {
-                    arr[i, j, k] = new Random().Next(1, 10);
-                    count = 0;
-                    i=0;
-                    j=0;
-                    k=0;
-                }
-            }
-        }
-    }
-    count+=1;
 }
 
 int[,,] massiv = GetDemension();
 FillArray(massiv);
-PrintArray(massiv);
-CheckDoubleArray(massiv);
 PrintArray(massiv);
