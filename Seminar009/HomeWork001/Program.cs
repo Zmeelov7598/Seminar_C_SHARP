@@ -9,12 +9,15 @@ void Sequence(double number)
         Console.Write($"{number},");
         Sequence(number - 1);
     }
-    else
+    else if (number == 1)
     {
         Console.Write(number);
         Console.WriteLine();
     }
-        
+    if (number <= 0)
+    {
+        Console.WriteLine($"Натуральных чисел от 1 до {number} НЕТ!!");
+    }
 }
 
 double GetNumber()
